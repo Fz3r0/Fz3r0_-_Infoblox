@@ -30,6 +30,7 @@ Register and wait for an e-mail with the download instructions:
 
 - https://www.youtube.com/watch?v=uRUMAyOT_v8&list=PLByRZeLczdFu69rmOAIq--J-RqnObceIF&index=3
 - https://www.youtube.com/watch?v=pqwl3CMCjF4
+- https://www.youtube.com/watch?v=aSc7w81cTJg
   
 ---
 
