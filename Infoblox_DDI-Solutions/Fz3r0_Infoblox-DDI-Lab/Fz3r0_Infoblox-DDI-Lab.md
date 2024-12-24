@@ -28,11 +28,8 @@ Register and wait for an e-mail with the download instructions:
 
 # 📚🗂️🎥 Resources
 
-- https://www.youtube.com/watch?v=TbQxGUKgpg8
-- https://youtu.be/VEZ5DZpQ_qc?si=uOT53KK6zI1mgiER
-- https://labhub.eu.org/UNETLAB%20II/addons/qemu/Palo%20Alto/
-- https://www.youtube.com/watch?v=VEZ5DZpQ_qc&list=PL9aktFItFNdOXy0Z-D5RFSdX_AHjJrIgi&index=1
-
+- https://www.youtube.com/watch?v=uRUMAyOT_v8&list=PLByRZeLczdFu69rmOAIq--J-RqnObceIF&index=3
+- https://www.youtube.com/watch?v=pqwl3CMCjF4
   
 ---
 
