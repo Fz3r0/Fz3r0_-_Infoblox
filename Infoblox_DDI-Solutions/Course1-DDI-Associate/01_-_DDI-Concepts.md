@@ -63,6 +63,15 @@ Initially, the process of assigning addresses was manual. Computers and their as
 
 The DNS was created in 1983 and became one of the original Internet Standards in 1986 (After the creation of the Internet Engineering Task Force IETF). In 1984, UC Berkeley students developed the first Unix name server implementation known as BIND (Berkeley Internet Name Domain). Over the years, various developers and organizations, including the Internet Systems Consortium (ISC), contributed to the maintenance and development of BIND. In November 1987, RFC 1034 and RFC 1035 replaced the original DNS specifications from 1983. They describe the whole protocol functionality and include data types that it can carry.
 
+## Importance of DNS
+
+DNS is critical network infraestructure
+
+- Todays Apps are name-based, not address-based (Active Directory, VoIP, etc)
+- Load Balancers and CDN (Content Delivery Network) rely on DNS
+- Emails need names
+- HTTPS & certs rely on DNS for names (DNS names are tied to secure websites)
+
 ## DNS Terminology & Defnitions
 
 ![image](https://github.com/user-attachments/assets/80a4d3b0-a4de-4548-a647-0c4793615c06)
@@ -97,27 +106,7 @@ DNS (Domain Name System) hierarchy is the structured organization of DNS compone
 | **5. Authoritative Name Servers** | N/A                         | Holds DNS records (e.g., `A`, `AAAA`, `MX`) and provides definitive domain-to-IP mappings.   |
 | **6. Recursive Resolvers** | Client systems (e.g., browsers)    | Queries the DNS hierarchy on behalf of clients to resolve domain names into IP addresses.    |
 
-## Importance of DNS
-
-DNS is critical network infraestructure
-
-- Todays Apps are name-based, not address-based (Active Directory, VoIP, etc)
-- Load Balancers and CDN (Content Delivery Network) rely on DNS
-- Emails need names
-- HTTPS & certs rely on DNS for names (DNS names are tied to secure websites)
-
 ## DNS lookup
-
-- DNS Server Types:
-
-| **Server Type**              | **Role in DNS Lookup**                                                                                       | **Example**                 |
-|------------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------|
-| **Recursive Resolver**       | Receives client queries and resolves them by contacting other DNS servers if the answer is not in its cache. | ISP or public resolvers (e.g., Google DNS `8.8.8.8`). |
-| **Root Name Server**          | Directs the resolver to the TLD server responsible for the domain.                                          | One of 13 root servers (`A` to `M`). |
-| **TLD Name Server**           | Provides the resolver with the authoritative name server for the domain.                                   | `.com`, `.net`, `.org`, or country-specific TLDs like `.uk`. |
-| **Authoritative Name Server** | Holds DNS records (e.g., `A`, `AAAA`, `MX`) and provides the final IP address or other requested information. | The DNS server for `example.com`. |
-
-- DNS Lookup:
 
 | **Step**                 | **Action**                                                                                   | **Result**                                 |
 |--------------------------|----------------------------------------------------------------------------------------------|-------------------------------------------|
@@ -127,6 +116,21 @@ DNS is critical network infraestructure
 | **4. TLD Server**         | Provides the resolver with the address of the domain's authoritative name server.           | Address of authoritative server.          |
 | **5. Authoritative Server** | Resolves the domain name into an IP address or other requested information.               | Final IP address or record is returned.   |
 | **6. Response to Client** | The recursive resolver sends the IP address back to the client.                             | Client connects to the destination.       |
+
+## DNS Server Types:
+
+| **Server Type**            | **Role in DNS Lookup**                                                                                                                                  | **Example**                                                                                          |
+|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
+| **Hosts File (Client)**     | Local file on the client system used to resolve domain names to IP addresses before querying any DNS server.                                           | `C:\Windows\System32\drivers\etc\hosts` or `/etc/hosts` with an entry like `127.0.0.1 example.com`. |
+| **Recursive Resolver**      | Receives client queries and resolves them by contacting other DNS servers if the answer is not in its cache.                                          | ISP or public resolvers (e.g., Google DNS `8.8.8.8`, Cloudflare `1.1.1.1`).                         |
+| **Root Name Server**        | Directs the resolver to the appropriate TLD server responsible for the domain.                                                                        | One of the 13 root servers (e.g., `A.ROOT-SERVERS.NET`).                                            |
+| **TLD Name Server**         | Provides the resolver with the authoritative name server for the queried domain based on the top-level domain.                                        | `.com`, `.org`, or `.uk` TLD servers.                                                               |
+| **Authoritative Name Server**| Holds DNS records (e.g., A, AAAA, MX) and provides the final IP address or other requested information about the domain.                              | The authoritative server for `example.com`.                                                        |
+
+
+
+
+
 
 ![image](https://github.com/user-attachments/assets/96625c3a-a715-4af7-a14b-f70e74167376)
 
