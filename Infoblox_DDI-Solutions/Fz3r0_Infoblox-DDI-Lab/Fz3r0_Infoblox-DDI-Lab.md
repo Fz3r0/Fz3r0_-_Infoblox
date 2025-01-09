@@ -1,4 +1,4 @@
-# 🔥🧱🛡️ Infoblox: `DDI Lab`
+# 🔥🧱🛡️ Infoblox DDI (DNS, DHCP, IPAM): `DDI Lab`
 
 ![My Video](https://user-images.githubusercontent.com/94720207/165892585-b830998d-d7c5-43b4-a3ad-f71a07b9077e.gif)
 
@@ -55,6 +55,8 @@ Instructions for download and setup Infoblox for first time:
 
 # 📚🗂️🎥 Resources
 
+- https://launchpad.education.infoblox.com/student/catalog/list?category_ids=33680-dns-dhcp-and-ipam-ddi
+- https://launchpad.education.infoblox.com/student/collection/1679502-9851?sid=f71ddc86-5c52-4c0c-9803-ef455206a209&sid_i=0
 - https://www.youtube.com/watch?v=uRUMAyOT_v8&list=PLByRZeLczdFu69rmOAIq--J-RqnObceIF&index=3
 - https://www.youtube.com/watch?v=pqwl3CMCjF4
 - https://www.youtube.com/watch?v=aSc7w81cTJg
