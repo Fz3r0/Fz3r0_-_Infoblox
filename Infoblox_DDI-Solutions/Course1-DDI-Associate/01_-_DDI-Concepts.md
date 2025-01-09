@@ -87,7 +87,27 @@ DNS is critical network infraestructure
 - Emails need names
 - HTTPS & certs rely on DNS for names (DNS names are tied to secure websites)
 
-## DNS lookup diagram
+## DNS lookup
+
+- DNS Server Types:
+
+| **Server Type**              | **Role in DNS Lookup**                                                                                       | **Example**                 |
+|------------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------|
+| **Recursive Resolver**       | Receives client queries and resolves them by contacting other DNS servers if the answer is not in its cache. | ISP or public resolvers (e.g., Google DNS `8.8.8.8`). |
+| **Root Name Server**          | Directs the resolver to the TLD server responsible for the domain.                                          | One of 13 root servers (`A` to `M`). |
+| **TLD Name Server**           | Provides the resolver with the authoritative name server for the domain.                                   | `.com`, `.net`, `.org`, or country-specific TLDs like `.uk`. |
+| **Authoritative Name Server** | Holds DNS records (e.g., `A`, `AAAA`, `MX`) and provides the final IP address or other requested information. | The DNS server for `example.com`. |
+
+- DNS Lookup:
+
+| **Step**                 | **Action**                                                                                   | **Result**                                 |
+|--------------------------|----------------------------------------------------------------------------------------------|-------------------------------------------|
+| **1. Client Request**    | The client queries the recursive resolver for a domain name.                                 | Sends DNS query to recursive resolver.    |
+| **2. Recursive Resolver**| Checks its cache for the answer; if unavailable, queries the DNS hierarchy.                  | Contacts root server.                     |
+| **3. Root Server**        | Directs the resolver to the appropriate TLD name server.                                    | Address of the TLD server.                |
+| **4. TLD Server**         | Provides the resolver with the address of the domain's authoritative name server.           | Address of authoritative server.          |
+| **5. Authoritative Server** | Resolves the domain name into an IP address or other requested information.               | Final IP address or record is returned.   |
+| **6. Response to Client** | The recursive resolver sends the IP address back to the client.                             | Client connects to the destination.       |
 
 ![image](https://github.com/user-attachments/assets/96625c3a-a715-4af7-a14b-f70e74167376)
 
