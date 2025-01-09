@@ -17,7 +17,11 @@
 
 - 
 
-# Download Infoblox DDI Evaluation Copy
+# Download and Setup Infoblox Virtual Lab
+
+Instructions for download and setup Infoblox for first time:
+
+## Download Infoblox DDI Evaluation Copy
 
 1. Register and wait for an e-mail with the download instructions: 
 
@@ -30,6 +34,12 @@
 2. Select the hypervisor you want to use and download the file: VMware for the .ova, or KVM for QEMU
 
 ![image](https://github.com/user-attachments/assets/7ad5946c-2e2f-468b-8d44-e73e03238015)
+
+3. .ova is ready to be installed on VMware Workstation:
+
+![image](https://github.com/user-attachments/assets/ca231586-6a27-4b0e-a9a5-87588fcf60d5)
+
+## Setup Infoblox DDI in VMware Workstation
 
 
 
