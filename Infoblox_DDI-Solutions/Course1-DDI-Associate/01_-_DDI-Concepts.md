@@ -78,7 +78,20 @@ DNS (Domain Name System) hierarchy is the structured organization of DNS compone
 | **5. Authoritative Name Servers** | N/A                         | Holds DNS records (e.g., `A`, `AAAA`, `MX`) and provides definitive domain-to-IP mappings.   |
 | **6. Recursive Resolvers** | Client systems (e.g., browsers)    | Queries the DNS hierarchy on behalf of clients to resolve domain names into IP addresses.    |
 
+## Importance of DNS
 
+DNS is critical network infraestructure
+
+- Todays Apps are name-based, not address-based (Active Directory, VoIP, etc)
+- Load Balancers and CDN (Content Delivery Network) rely on DNS
+- Emails need names
+- HTTPS & certs rely on DNS for names (DNS names are tied to secure websites)
+
+## DNS lookup diagram
+
+![image](https://github.com/user-attachments/assets/96625c3a-a715-4af7-a14b-f70e74167376)
+
+![image](https://github.com/user-attachments/assets/b222436f-a219-40a2-908e-3d990cbff8d9)
 
 
 
