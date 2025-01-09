@@ -1,4 +1,4 @@
-# 🔥🧱🛡️ IEEE 802.3 Ethernet: `Network Architecutres`
+# 🔥🧱🛡️ Infoblox: `DDI Lab`
 
 ![My Video](https://user-images.githubusercontent.com/94720207/165892585-b830998d-d7c5-43b4-a3ad-f71a07b9077e.gif)
 
@@ -7,7 +7,7 @@
 
 ---
  
-#### Keywords: `Networking` 
+#### Keywords: `Infoblox` 
 
 ---
 
@@ -23,7 +23,13 @@ Register and wait for an e-mail with the download instructions:
 
 - https://info.infoblox.com/resources-evaluations-ddi-eval
 
+![image](https://github.com/user-attachments/assets/f0ffa4b6-b295-4078-8070-52d8472e193a)
+
+- [**Infoblox Demo Download Link**](https://www.infoblox.com/product-evaluation-portal-ddi/?mkt_tok=MjQwLVBUSy03NTEAAAGXlXkftYyoa_RSDlJjlMJbK_cf8f_56_Ry-p8QzB386ogaH7sJ-1YvXG4xcmKl1g2oLXqErF3bpJiwAbi9-cN5PCXPtNAlIW_YCM6pyk-xiU1oYBo)
+
 ![image](https://github.com/user-attachments/assets/32d82b46-e924-4173-8d86-4f2ff0ba080e)
+
+
 
 
 # 📚🗂️🎥 Resources
