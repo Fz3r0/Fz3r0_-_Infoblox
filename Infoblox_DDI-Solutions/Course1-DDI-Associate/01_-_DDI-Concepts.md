@@ -63,6 +63,12 @@ Initially, the process of assigning addresses was manual. Computers and their as
 
 The DNS was created in 1983 and became one of the original Internet Standards in 1986 (After the creation of the Internet Engineering Task Force IETF). In 1984, UC Berkeley students developed the first Unix name server implementation known as BIND (Berkeley Internet Name Domain). Over the years, various developers and organizations, including the Internet Systems Consortium (ISC), contributed to the maintenance and development of BIND. In November 1987, RFC 1034 and RFC 1035 replaced the original DNS specifications from 1983. They describe the whole protocol functionality and include data types that it can carry.
 
+## DNS Terminology & Defnitions
+
+![image](https://github.com/user-attachments/assets/80a4d3b0-a4de-4548-a647-0c4793615c06)
+
+
+
 ## DNS Hierarchy
 
 DNS (Domain Name System) hierarchy is the structured organization of DNS components that enables efficient and scalable domain name resolution across the internet. It follows a tree-like model with different levels of authority, ensuring that domain names (like www.example.com) are translated into IP addresses (like 192.0.2.1) effectively.
