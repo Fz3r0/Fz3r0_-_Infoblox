@@ -157,6 +157,60 @@ DNS (Domain Name System) hierarchy is the structured organization of DNS compone
 | **Mobile Apps**                      | Mobile applications, especially those involving web services, rely on DNS to resolve domain names to IP addresses for server communication.                           | Uses DNS resolution for API calls, website browsing, or any cloud-based service. DNS resolution is handled automatically as part of the app's networking stack.       |
 | **IoT Devices / Captive Portals**    | Internet of Things (IoT) devices and captive portals require DNS resolution to connect to servers or provide user-specific network access (e.g., Wi-Fi sign-in).         | Devices use DNS to resolve hostnames to IP addresses for internet access or network configuration. Captive portals often rely on DNS redirection for authentication.   |
 
+## DNS client: `dig`
+
+dig (Domain Information Groper) is a command-line tool used for DNS (Domain Name System) queries. Its primary purpose is to obtain information about domain names and related IP addresses. It is widely used for network troubleshooting, DNS diagnostics, or retrieving details about a domain's DNS records. dig supports Internationalized domain name (IDN) queries.
+
+dig is a component of the domain name server software suite BIND. dig supersedes in functionality older tools, such as nslookup and the program host; however, the older tools are still used in complementary fashion.
+
+
+| **DNS Client Software**              | **Description**                                                                                                                                                        | **Key Features**                                                                                                                                                     |
+|--------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **dig**                              | A powerful command-line tool used to query DNS servers for information. It is commonly used for troubleshooting and debugging DNS issues.                              | Provides detailed DNS query results, flexible in specifying the record types (A, MX, TXT, etc.), supports reverse DNS lookup, and custom server querying.             |
+| **host**                             | A simple command-line utility for performing DNS lookups. It’s lightweight and easy to use, commonly used for querying domain names and IP addresses.                    | Simple syntax, supports querying for specific record types, allows reverse lookups, and often used for quick DNS troubleshooting.                                    |
+| **nslookup**                         | A command-line tool used to query DNS servers for information. It is a part of most operating systems (Windows, Unix-based).                                             | Can query for DNS records (A, AAAA, MX, etc.), supports reverse DNS lookups, and allows querying of different DNS servers. It has a user-friendly interactive mode.    |
+| **ping**                             | Although primarily used to check network connectivity, `ping` can also be used for DNS resolution by specifying a domain name, which it will resolve to an IP address.  | Uses DNS to resolve domain names to IP addresses before sending ICMP echo requests. Provides basic DNS resolution along with network connectivity testing.            |
+| **Web Browser**                      | Modern web browsers (Chrome, Firefox, Safari, etc.) use DNS clients to resolve domain names when a user enters a URL in the address bar.                               | Automatically resolves domain names to IP addresses before sending HTTP requests. Supports DNS-over-HTTPS (DoH) for secure resolution.                              |
+| **Mobile Apps**                      | Mobile applications, especially those involving web services, rely on DNS to resolve domain names to IP addresses for server communication.                           | Uses DNS resolution for API calls, website browsing, or any cloud-based service. DNS resolution is handled automatically as part of the app's networking stack.       |
+| **IoT Devices / Captive Portals**    | Internet of Things (IoT) devices and captive portals require DNS resolution to connect to servers or provide user-specific network access (e.g., Wi-Fi sign-in).         | Devices use DNS to resolve hostnames to IP addresses for internet access or network configuration. Captive portals often rely on DNS redirection for authentication.   |
+
+## trailing dot
+
+The trailing dot in a Fully Qualified Domain Name (FQDN) represents the root of the DNS hierarchy. It ensures that the domain name is absolute, not relative.
+
+- **Best practice is to use FQDN with the trailing dot during troubleshooting. eg: `dig www.example.com. A`** Here, the trailing dot signifies the root of the DNS hierarchy, indicating that www.example.com. is an absolute domain name. The query is sent directly to the root DNS servers to resolve the domain name without any ambiguity or appending of a local search path.
+
+### Why Should a Correct FQDN Have a Trailing Dot?
+
+- Unambiguous Domain Name: A Fully Qualified Domain Name (FQDN) without the trailing dot may be interpreted as a relative domain name, meaning the DNS resolver may attempt to resolve it based on the local search domain or configured suffix, leading to unintended results. The trailing dot eliminates this ambiguity by indicating that the domain is absolute and is to be resolved directly from the root DNS servers.
+- RFC Specification: According to DNS standards (RFC 1035), domain names in the DNS system should be fully qualified when specified. The trailing dot indicates the full name that begins from the root of the DNS hierarchy. Without it, the query might be treated as relative.
+
+Differences:
+
+- Without Trailing Dot: The domain is considered relative and could have a search suffix attached, potentially altering the query. Without the trailing dot, the domain could be treated as relative, potentially causing errors if the resolver appends a local suffix.
+- With Trailing Dot: The domain is considered absolute and will resolve from the root DNS servers. With the trailing dot, the domain is considered absolute, and DNS queries will start from the root.
+
+## DNS Lookup examples
+
+- Single answer:
+
+![image](https://github.com/user-attachments/assets/d285a270-dc92-46e1-90e7-e2eb111a2e38)
+
+- Multiple answers:
+
+![image](https://github.com/user-attachments/assets/22bba842-574c-4d3f-99de-e89664711e46)
+
+- Name does not exists
+
+![image](https://github.com/user-attachments/assets/f23857ea-8e4c-4e62-8c50-5d62023bb05a)
+
+- DNS Server unrecheable
+
+![image](https://github.com/user-attachments/assets/0f5b2c8f-ec03-47e8-b6fd-f571834636ab)
+
+- DNS Server error
+
+![image](https://github.com/user-attachments/assets/00d9a5e5-f8d8-443b-b40c-2d58dcd98fab)
 
 
 # 📚🗂️🎥 Resources
