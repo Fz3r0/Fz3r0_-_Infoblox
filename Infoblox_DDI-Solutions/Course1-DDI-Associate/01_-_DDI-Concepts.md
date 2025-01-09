@@ -95,8 +95,6 @@ DNS is critical network infraestructure
 
 DNS (Domain Name System) hierarchy is the structured organization of DNS components that enables efficient and scalable domain name resolution across the internet. It follows a tree-like model with different levels of authority, ensuring that domain names (like www.example.com) are translated into IP addresses (like 192.0.2.1) effectively.
 
-![image](https://github.com/user-attachments/assets/14589038-4f11-4e6a-b931-f143622fb7e4)
-
 | **Level**                 | **Examples**                       | **Role**                                                                                     |
 |---------------------------|-------------------------------------|---------------------------------------------------------------------------------------------|
 | **1. Root Level**         | `.`                                | The highest level of the DNS hierarchy; directs queries to TLD servers.                     |
@@ -105,6 +103,8 @@ DNS (Domain Name System) hierarchy is the structured organization of DNS compone
 | **4. Subdomains**         | `www.example.com`, `mail.example.com` | Organizes services or sections under an SLD; resolved by the SLD's authoritative servers.    |
 | **5. Authoritative Name Servers** | N/A                         | Holds DNS records (e.g., `A`, `AAAA`, `MX`) and provides definitive domain-to-IP mappings.   |
 | **6. Recursive Resolvers** | Client systems (e.g., browsers)    | Queries the DNS hierarchy on behalf of clients to resolve domain names into IP addresses.    |
+
+![image](https://github.com/user-attachments/assets/14589038-4f11-4e6a-b931-f143622fb7e4)
 
 ## DNS lookup
 
@@ -117,6 +117,8 @@ DNS (Domain Name System) hierarchy is the structured organization of DNS compone
 | **5. Authoritative Server** | Resolves the domain name into an IP address or other requested information.               | Final IP address or record is returned.   |
 | **6. Response to Client** | The recursive resolver sends the IP address back to the client.                             | Client connects to the destination.       |
 
+![image](https://github.com/user-attachments/assets/96625c3a-a715-4af7-a14b-f70e74167376)
+
 ## DNS Server Types:
 
 | **Server Type**            | **Role in DNS Lookup**                                                                                                                                  | **Example**                                                                                          |
@@ -126,13 +128,6 @@ DNS (Domain Name System) hierarchy is the structured organization of DNS compone
 | **Root Name Server**        | Directs the resolver to the appropriate TLD server responsible for the domain.                                                                        | One of the 13 root servers (e.g., `A.ROOT-SERVERS.NET`).                                            |
 | **TLD Name Server**         | Provides the resolver with the authoritative name server for the queried domain based on the top-level domain.                                        | `.com`, `.org`, or `.uk` TLD servers.                                                               |
 | **Authoritative Name Server**| Holds DNS records (e.g., A, AAAA, MX) and provides the final IP address or other requested information about the domain.                              | The authoritative server for `example.com`.                                                        |
-
-
-
-
-
-
-![image](https://github.com/user-attachments/assets/96625c3a-a715-4af7-a14b-f70e74167376)
 
 ![image](https://github.com/user-attachments/assets/b222436f-a219-40a2-908e-3d990cbff8d9)
 
