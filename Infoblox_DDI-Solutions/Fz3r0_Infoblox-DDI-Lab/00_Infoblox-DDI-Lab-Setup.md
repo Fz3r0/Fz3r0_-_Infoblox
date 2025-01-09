@@ -49,7 +49,11 @@ Instructions for download and setup Infoblox for first time:
 
 ![image](https://github.com/user-attachments/assets/24cc54a8-4179-46db-96fd-f47475115960)
 
-3. Run the machine and wait for the credentials prompt. (`admin` : `infoblox`)
+3. Run the machine and wait for the credentials prompt (`admin` : `infoblox`)
+
+    - **You must be patient for the machine to boot!!!**. 
+
+![image](https://github.com/user-attachments/assets/94bb2246-e97b-404a-a7e6-7f24103ae3b0)
 
 
 
