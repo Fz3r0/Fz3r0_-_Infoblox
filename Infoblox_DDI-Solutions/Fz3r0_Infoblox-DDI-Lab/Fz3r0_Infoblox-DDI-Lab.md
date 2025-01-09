@@ -41,7 +41,15 @@ Instructions for download and setup Infoblox for first time:
 
 ## Setup Infoblox DDI in VMware Workstation
 
+1. Doubleclick on the .ova file to import to VMware Workstation, then select `TE-815` (This version supports DHCP, DNS, etc... TR versions are only for reporting):
 
+![image](https://github.com/user-attachments/assets/f966023d-890e-4ecb-bbad-7de8235e130c)
+
+2. Click on Import:
+
+![image](https://github.com/user-attachments/assets/24cc54a8-4179-46db-96fd-f47475115960)
+
+3. Run the machine and wait for the credentials prompt. (`admin` : `infoblox`)
 
 
 
