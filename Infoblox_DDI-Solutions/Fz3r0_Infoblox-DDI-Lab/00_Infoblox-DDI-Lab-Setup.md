@@ -55,6 +55,9 @@ Instructions for download and setup Infoblox for first time:
 
 ![image](https://github.com/user-attachments/assets/94bb2246-e97b-404a-a7e6-7f24103ae3b0)
 
+4. You are in!
+
+## Setup Infoblox for first time
 
 
 # 📚🗂️🎥 Resources
