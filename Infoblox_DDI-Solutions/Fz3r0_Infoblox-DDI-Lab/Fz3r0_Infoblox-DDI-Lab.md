@@ -19,7 +19,7 @@
 
 # Download Infoblox DDI Evaluation Copy
 
-Register and wait for an e-mail with the download instructions: 
+1. Register and wait for an e-mail with the download instructions: 
 
 - https://info.infoblox.com/resources-evaluations-ddi-eval
 
@@ -27,7 +27,10 @@ Register and wait for an e-mail with the download instructions:
 
 - [**Infoblox Demo Download Link**](https://www.infoblox.com/product-evaluation-portal-ddi/?mkt_tok=MjQwLVBUSy03NTEAAAGXlXkftYyoa_RSDlJjlMJbK_cf8f_56_Ry-p8QzB386ogaH7sJ-1YvXG4xcmKl1g2oLXqErF3bpJiwAbi9-cN5PCXPtNAlIW_YCM6pyk-xiU1oYBo)
 
-![image](https://github.com/user-attachments/assets/32d82b46-e924-4173-8d86-4f2ff0ba080e)
+2. Select the hypervisor you want to use and download the file: VMware for the .ova, or KVM for QEMU
+
+![image](https://github.com/user-attachments/assets/7ad5946c-2e2f-468b-8d44-e73e03238015)
+
 
 
 
