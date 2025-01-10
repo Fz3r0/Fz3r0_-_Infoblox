@@ -84,10 +84,17 @@ Instructions for download and setup Infoblox for first time:
 ![image](https://github.com/user-attachments/assets/6adfaf16-ecab-4e80-8070-33e6289b0bf4)
 
 
-## 🖥️ Set temporary licence
+## 🖥️ Set temporary FREE licence
 
-1. 
+📋 **`NOTE`**: The licence is free for 60 days, in this case using the model `IB-V815`
 
+1. Execute command: `set temp_licence`
+
+2. Select `4 - Add NIOS licence`
+
+![image](https://github.com/user-attachments/assets/7d1f8e3e-c2db-4603-8058-638a4ac15b13)
+
+3. Select `2 - IB-V815`
 
 
 # 📚🗂️🎥 Resources
