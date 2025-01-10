@@ -134,13 +134,12 @@ attached extra storage for the reporting disk, for example:
 
 ![image](https://github.com/user-attachments/assets/7d1f8e3e-c2db-4603-8058-638a4ac15b13)
 
-3. ⭕ ISelect `2 - IB-V815`
+3. ⭕ ISelect `3 - ND-V815`
 
-![image](https://github.com/user-attachments/assets/e43669ea-e537-4582-82c1-17f76ec97887)
+
 
 4. ⭕ Install the licence and wait for the restart:
 
-![image](https://github.com/user-attachments/assets/83de8ad4-86fb-4726-9bc7-e598e8eb2ebe)
 
 
 
@@ -151,15 +150,15 @@ attached extra storage for the reporting disk, for example:
 
 2. ⭕ ISelect `4 - Add NIOS licence`
 
-![image](https://github.com/user-attachments/assets/7d1f8e3e-c2db-4603-8058-638a4ac15b13)
 
-3. ⭕ ISelect `2 - IB-V815`
+
+3. ⭕ ISelect `??????`
 
 ![image](https://github.com/user-attachments/assets/e43669ea-e537-4582-82c1-17f76ec97887)
 
 4. ⭕ Install the licence and wait for the restart:
 
-![image](https://github.com/user-attachments/assets/83de8ad4-86fb-4726-9bc7-e598e8eb2ebe)   
+
 
 # 📚🗂️🎥 Resources
 
