@@ -88,6 +88,30 @@ Instructions for download and setup Infoblox for first time:
 
 📋 **`NOTE`**: The licence is free for 60 days, in this case using the model `IB-V815`
 
+⚠️ **`IMPORTANT`**: On a NIOS IB-V5005 appliance without extra storage, if you manually try to install a license, the
+following error message is displayed:
+
+- **"You must provision the reporting disk before adding a license to the Reporting server".**
+
+If you are installing a license on a VM that has the cloud-init parameter installed, ensure that you have
+attached extra storage for the reporting disk, for example: 
+
+1. ⚠️ Trun off the VM
+2. ⚠️ Add an extra storage to the VM:
+
+![image](https://github.com/user-attachments/assets/a57d7980-28da-463c-b29f-d19aa18c4d4b)
+
+![image](https://github.com/user-attachments/assets/6948c7da-2e20-4e6b-b1aa-07724d3daa67)
+
+![image](https://github.com/user-attachments/assets/ace623af-2c6a-49be-9305-93b624d29533)
+
+![image](https://github.com/user-attachments/assets/f85168fb-da8b-4807-9a03-e1598f78b23c)
+
+![image](https://github.com/user-attachments/assets/3912f79e-cd7e-4f32-bf4b-53c6790cad0e)
+
+**✅ Now you can proceed setting the temp_licence:**
+
+
 1. Execute command: `set temp_licence`
 
 2. Select `4 - Add NIOS licence`
@@ -96,6 +120,9 @@ Instructions for download and setup Infoblox for first time:
 
 3. Select `2 - IB-V815`
 
+![image](https://github.com/user-attachments/assets/e43669ea-e537-4582-82c1-17f76ec97887)
+
+   
 
 # 📚🗂️🎥 Resources
 
