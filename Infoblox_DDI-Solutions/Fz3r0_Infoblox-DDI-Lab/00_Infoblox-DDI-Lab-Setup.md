@@ -152,6 +152,7 @@ attached extra storage for the reporting disk, for example:
 
 - https://launchpad.education.infoblox.com/student/catalog/list?category_ids=33680-dns-dhcp-and-ipam-ddi
 - https://launchpad.education.infoblox.com/student/collection/1679502-9851?sid=f71ddc86-5c52-4c0c-9803-ef455206a209&sid_i=0
+- https://www.youtube.com/watch?v=pqwl3CMCjF4
 - https://www.youtube.com/watch?v=uRUMAyOT_v8&list=PLByRZeLczdFu69rmOAIq--J-RqnObceIF&index=3
 - https://www.youtube.com/watch?v=pqwl3CMCjF4
 - https://www.youtube.com/watch?v=aSc7w81cTJg
