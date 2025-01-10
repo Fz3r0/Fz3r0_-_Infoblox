@@ -1,4 +1,4 @@
-# 🔥🧱🛡️ Infoblox DDI (DNS, DHCP, IPAM): `DDI Lab`
+# 🔥🧱🛡️ Infoblox DDI (DNS, DHCP, IPAM): `DDI Lab - Part 1 :: Setup Lab`
 
 ![My Video](https://user-images.githubusercontent.com/94720207/165892585-b830998d-d7c5-43b4-a3ad-f71a07b9077e.gif)
 
@@ -7,7 +7,7 @@
 
 ---
  
-#### Keywords: `Infoblox` 
+#### Keywords: `Infoblox` `DDI`
 
 ---
 
@@ -17,13 +17,13 @@
 
 - 
 
-# Download and Setup Infoblox Virtual Lab
+# ⬇️⚙️🖥️ Download and Setup Infoblox Virtual Lab
 
 Instructions for download and setup Infoblox for first time:
 
-## Download Infoblox DDI Evaluation Copy
+## ⬇️ Download Infoblox DDI Evaluation Copy
 
-1. Register and wait for an e-mail with the download instructions: 
+1. ⭕ Register and wait for an e-mail with the download instructions: 
 
 - https://info.infoblox.com/resources-evaluations-ddi-eval
 
@@ -31,33 +31,33 @@ Instructions for download and setup Infoblox for first time:
 
 - [**Infoblox Demo Download Link**](https://www.infoblox.com/product-evaluation-portal-ddi/?mkt_tok=MjQwLVBUSy03NTEAAAGXlXkftYyoa_RSDlJjlMJbK_cf8f_56_Ry-p8QzB386ogaH7sJ-1YvXG4xcmKl1g2oLXqErF3bpJiwAbi9-cN5PCXPtNAlIW_YCM6pyk-xiU1oYBo)
 
-2. Select the hypervisor you want to use and download the file: VMware for the .ova, or KVM for QEMU
+2. ⭕ Select the hypervisor you want to use and download the file: VMware for the .ova, or KVM for QEMU
 
 ![image](https://github.com/user-attachments/assets/7ad5946c-2e2f-468b-8d44-e73e03238015)
 
-3. .ova is ready to be installed on VMware Workstation:
+3. ⭕ .ova is ready to be installed on VMware Workstation:
 
 ![image](https://github.com/user-attachments/assets/ca231586-6a27-4b0e-a9a5-87588fcf60d5)
 
-## Setup Infoblox DDI in VMware Workstation
+## ⚙️ Setup Infoblox DDI in VMware Workstation
 
-1. Doubleclick on the .ova file to import to VMware Workstation, then select `TE-815` (This version supports DHCP, DNS, etc... TR versions are only for reporting):
+1. ⭕ Doubleclick on the .ova file to import to VMware Workstation, then select `TE-815` (This version supports DHCP, DNS, etc... TR versions are only for reporting):
 
 ![image](https://github.com/user-attachments/assets/f966023d-890e-4ecb-bbad-7de8235e130c)
 
-2. Click on Import:
+2. ⭕ Click on Import:
 
 ![image](https://github.com/user-attachments/assets/24cc54a8-4179-46db-96fd-f47475115960)
 
-3. Run the machine and wait for the credentials prompt (`admin` : `infoblox`)
+3. ⭕ Run the machine and wait for the credentials prompt (`admin` : `infoblox`)
 
     - **You must be patient for the machine to boot!!!**. 
 
 ![image](https://github.com/user-attachments/assets/94bb2246-e97b-404a-a7e6-7f24103ae3b0)
 
-4. You are in!
+4. ⭕ You are in!
 
-## Setup Infoblox for first time
+## 🖥️ Setup Infoblox for first time
 
 
 # 📚🗂️🎥 Resources
