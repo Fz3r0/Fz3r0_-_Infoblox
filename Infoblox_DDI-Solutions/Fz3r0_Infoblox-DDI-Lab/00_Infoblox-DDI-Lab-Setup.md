@@ -84,7 +84,10 @@ Instructions for download and setup Infoblox for first time:
 ![image](https://github.com/user-attachments/assets/6adfaf16-ecab-4e80-8070-33e6289b0bf4)
 
 
-## 🖥️ Set temporary FREE licence
+
+
+
+## 🖥️ Set temporary NIOS licence
 
 📋 **`NOTE`**: The licence is free for 60 days, in this case using the model `IB-V815`
 
@@ -112,17 +115,38 @@ attached extra storage for the reporting disk, for example:
 **✅ Now you can proceed setting the temp_licence:**
 
 
-1. Execute command: `set temp_licence`
+1. ⭕ IExecute command: `set temp_licence`
 
-2. Select `4 - Add NIOS licence`
+2. ⭕ ISelect `4 - Add NIOS licence`
 
 ![image](https://github.com/user-attachments/assets/7d1f8e3e-c2db-4603-8058-638a4ac15b13)
 
-3. Select `2 - IB-V815`
+3. ⭕ ISelect `2 - IB-V815`
 
 ![image](https://github.com/user-attachments/assets/e43669ea-e537-4582-82c1-17f76ec97887)
 
-   
+4. ⭕ Install the licence and wait for the restart:
+
+![image](https://github.com/user-attachments/assets/83de8ad4-86fb-4726-9bc7-e598e8eb2ebe)
+
+
+
+
+## 🖥️ Set temporary DNSone (DNS, DHCP, Grid) licence
+
+1. ⭕ IExecute command: `set temp_licence`
+
+2. ⭕ ISelect `4 - Add NIOS licence`
+
+![image](https://github.com/user-attachments/assets/7d1f8e3e-c2db-4603-8058-638a4ac15b13)
+
+3. ⭕ ISelect `2 - IB-V815`
+
+![image](https://github.com/user-attachments/assets/e43669ea-e537-4582-82c1-17f76ec97887)
+
+4. ⭕ Install the licence and wait for the restart:
+
+![image](https://github.com/user-attachments/assets/83de8ad4-86fb-4726-9bc7-e598e8eb2ebe)   
 
 # 📚🗂️🎥 Resources
 
