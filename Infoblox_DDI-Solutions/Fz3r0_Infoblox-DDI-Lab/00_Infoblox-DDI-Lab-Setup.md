@@ -57,7 +57,11 @@ Instructions for download and setup Infoblox for first time:
 
 4. ⭕ You are in!
 
-## 🖥️ Setup Infoblox for first time
+## 🖥️ Setup Infoblox IP manually
+
+NOTE: In my case I really don't need to change the IP Address, it automatically set an IP inside my subnet, but if you want to manually set an address you can follow the next steps
+
+![image](https://github.com/user-attachments/assets/8eca9f75-b0e7-4d15-9161-97178d079237)
 
 1. Select the network and IP that you want to use, for example, I will **bridge** my VMware machine (bridge uses the same network as the physical host of the VM = My PC). That mean, I can use the same subnet as my home network/gateway/LAN. You can check it with a simple `ipconfig`
 
@@ -65,14 +69,19 @@ Instructions for download and setup Infoblox for first time:
 
 ![image](https://github.com/user-attachments/assets/31180a8b-3443-436e-bfed-f53f2dc23c5d)
 
-| **Subnet**   | 192.168.1.0            |
-|--------------|------------------------|
-| **Mask**     | 255.255.255.0          |
-| **PC**       | 192.168.1.71           |
+|  **Subnet**  |       192.168.1.0      |
+|:------------:|:----------------------:|
+|   **Mask**   |      255.255.255.0     |
+|    **PC**    |      192.168.1.71      |
 | **Infoblox** | **`192.168.1.200/24`** |
 
 2. Set the network like the next example with command: `set network`
 
+![image](https://github.com/user-attachments/assets/2a9642ed-dbe8-48ad-ade3-4874f41f6d5a)
+
+3. You can check again the config using the command: `show network` and `show interface`
+
+![image](https://github.com/user-attachments/assets/6adfaf16-ecab-4e80-8070-33e6289b0bf4)
 
 
 
