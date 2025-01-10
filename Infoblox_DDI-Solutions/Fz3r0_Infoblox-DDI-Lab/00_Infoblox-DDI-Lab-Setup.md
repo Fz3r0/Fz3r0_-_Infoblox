@@ -109,24 +109,7 @@ following error message is displayed:
 
 - **"You must provision the reporting disk before adding a license to the Reporting server".**
 
-If you are installing a license on a VM that has the cloud-init parameter installed, ensure that you have
-attached extra storage for the reporting disk, for example: 
-
-1. ⚠️ Trun off the VM
-2. ⚠️ Add an extra storage to the VM:
-
-![image](https://github.com/user-attachments/assets/a57d7980-28da-463c-b29f-d19aa18c4d4b)
-
-![image](https://github.com/user-attachments/assets/6948c7da-2e20-4e6b-b1aa-07724d3daa67)
-
-![image](https://github.com/user-attachments/assets/ace623af-2c6a-49be-9305-93b624d29533)
-
-![image](https://github.com/user-attachments/assets/f85168fb-da8b-4807-9a03-e1598f78b23c)
-
-![image](https://github.com/user-attachments/assets/3912f79e-cd7e-4f32-bf4b-53c6790cad0e)
-
-**✅ Now you can proceed setting the temp_licence:**
-
+✅ If you are geting this error you are selecting an incorrect version!!! you need to install licence for: **`IB-V815`**
 
 1. ⭕ IExecute command: `set temp_licence`
 
@@ -134,29 +117,31 @@ attached extra storage for the reporting disk, for example:
 
 ![image](https://github.com/user-attachments/assets/7d1f8e3e-c2db-4603-8058-638a4ac15b13)
 
-3. ⭕ ISelect `3 - ND-V815`
+3. ⭕ Select `3 - IB-V815`
 
-
+![image](https://github.com/user-attachments/assets/c415109d-0abe-4793-bea5-538a1fdbacc5)
 
 4. ⭕ Install the licence and wait for the restart:
 
+![image](https://github.com/user-attachments/assets/5bbc872a-f139-408f-b15f-705f9f5d4575)
 
 
 
 
-## 🖥️ Set temporary DNSone (DNS, DHCP, Grid) licence
+
+## 🖥️ Set temporary DNSone (DNS, DHCP, Grid) licence and restart UI
 
 1. ⭕ IExecute command: `set temp_licence`
 
-2. ⭕ ISelect `4 - Add NIOS licence`
+2. ⭕ Select `2 - DNSone with Grid (DNS, DHCP, Grid)`
 
+![image](https://github.com/user-attachments/assets/87cfd141-0563-4077-8e74-ec4982e004f6)
 
+3. ⭕ Install the licences and restart the UI
 
-3. ⭕ ISelect `??????`
+![image](https://github.com/user-attachments/assets/3923867e-505c-4b6a-b111-00cf5c8c1401)
 
-![image](https://github.com/user-attachments/assets/e43669ea-e537-4582-82c1-17f76ec97887)
-
-4. ⭕ Install the licence and wait for the restart:
+4. ⭕ Check for access to the UI from a browser:
 
 
 
