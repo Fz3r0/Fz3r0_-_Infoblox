@@ -59,6 +59,23 @@ Instructions for download and setup Infoblox for first time:
 
 ## 🖥️ Setup Infoblox for first time
 
+1. Select the network and IP that you want to use, for example, I will **bridge** my VMware machine (bridge uses the same network as the physical host of the VM = My PC). That mean, I can use the same subnet as my home network/gateway/LAN. You can check it with a simple `ipconfig`
+
+![image](https://github.com/user-attachments/assets/37aba813-a04a-4288-9562-df2ac26be208)
+
+![image](https://github.com/user-attachments/assets/31180a8b-3443-436e-bfed-f53f2dc23c5d)
+
+| **Subnet**   | 192.168.1.0            |
+|--------------|------------------------|
+| **Mask**     | 255.255.255.0          |
+| **PC**       | 192.168.1.71           |
+| **Infoblox** | **`192.168.1.200/24`** |
+
+2. Set the network like the next example with command: `set network`
+
+
+
+
 
 # 📚🗂️🎥 Resources
 
