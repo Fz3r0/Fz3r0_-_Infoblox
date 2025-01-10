@@ -56,6 +56,19 @@ Instructions for download and setup Infoblox for first time:
 ![image](https://github.com/user-attachments/assets/94bb2246-e97b-404a-a7e6-7f24103ae3b0)
 
 
+## Setup VMware Interfaces
+
+1. ⭕ Click on Edit > Virtual Interfaces Editor
+
+![image](https://github.com/user-attachments/assets/8fbfa47f-2515-44fe-84ed-4228f9694424)
+
+2. Save a screenshoot of the cofniguration before any change:
+
+![image](https://github.com/user-attachments/assets/9bb227fc-4295-4d9a-b705-2c39ef0a5b12)
+
+3. Change the first 5 intrerfaces to bridged:
+
+
 
 ## 🖥️ Setup Infoblox IP manually
 
