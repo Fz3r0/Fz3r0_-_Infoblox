@@ -55,15 +55,15 @@ Instructions for download and setup Infoblox for first time:
 
 ![image](https://github.com/user-attachments/assets/94bb2246-e97b-404a-a7e6-7f24103ae3b0)
 
-4. ⭕ You are in!
+
 
 ## 🖥️ Setup Infoblox IP manually
 
-NOTE: In my case I really don't need to change the IP Address, it automatically set an IP inside my subnet, but if you want to manually set an address you can follow the next steps
+📋 **`NOTE`**: In my case I don't need to change the IP Address, it automatically set an IP inside my subnet, but if you want to manually set an address you can follow the next steps:
 
 ![image](https://github.com/user-attachments/assets/8eca9f75-b0e7-4d15-9161-97178d079237)
 
-1. Select the network and IP that you want to use, for example, I will **bridge** my VMware machine (bridge uses the same network as the physical host of the VM = My PC). That mean, I can use the same subnet as my home network/gateway/LAN. You can check it with a simple `ipconfig`
+1. ⭕ Select the network and IP that you want to use, for example, I will **bridge** my VMware machine (bridge uses the same network as the physical host of the VM = My PC). That mean, I can use the same subnet as my home network/gateway/LAN. You can check it with a simple `ipconfig`
 
 ![image](https://github.com/user-attachments/assets/37aba813-a04a-4288-9562-df2ac26be208)
 
@@ -75,14 +75,18 @@ NOTE: In my case I really don't need to change the IP Address, it automatically 
 |    **PC**    |      192.168.1.71      |
 | **Infoblox** | **`192.168.1.200/24`** |
 
-2. Set the network like the next example with command: `set network`
+2. ⭕ Set the network like the next example with command: `set network`
 
 ![image](https://github.com/user-attachments/assets/2a9642ed-dbe8-48ad-ade3-4874f41f6d5a)
 
-3. You can check again the config using the command: `show network` and `show interface`
+3. ⭕ You can check again the config using the command: `show network` and `show interface`
 
 ![image](https://github.com/user-attachments/assets/6adfaf16-ecab-4e80-8070-33e6289b0bf4)
 
+
+## 🖥️ Set temporary licence
+
+1. 
 
 
 
